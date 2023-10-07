@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+}
+
+
+.header{
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(255, 255, 255); 
+    border-bottom: solid 1px #91B5F7;
+    border-radius: 10px;
+    box-shadow: 0 0 2rem #6b8bc5;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+.vertical{
+    height: 150px;
+}
+.vertical  a {
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+a > img {
+    padding-left: 2rem;
+    width: 30%;
+    
+}
+
+
+.main{
+    background-color: #D9E5F3;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.main .center h1{
+    text-align: center; 
+    padding: 2rem;
+}
+.main .center .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 6rem;
+
+}
+label{
+    font-size: 0.75rem;
+    padding-top: 30px;
+    font-weight: bold;
+}
+input{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.main .center .btn{
+    padding: 2rem 6rem;
+    width: 100%;
+}
+.linkbasso{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.main h1, h2, h3{
+    padding: 2rem;
+}
+.box{
+    max-height: 90%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+.center-events {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: calc(100% / 2 - 2rem);
+    margin: 0.5rem;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.title{
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 0.5px solid black;
+}
+.description{
+    padding: 1rem;
+    border-bottom: 0.5px solid black;
+}
+.when{
+    display: flex;
+    justify-content: space-between;
+}
+.date, .hour{
+    padding: 1rem;
+}
+.main-admin{
+    background-color: #D9E5F3;
+    width: 100vw;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-admin{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3rem;
+}
+#center-admin2{
+    margin-top: 30px;
+    max-height: 70%;
+}
+.center-admin form{
+    display: flex;
+    flex-direction: column;
+}
+.center-admin h1,h2,h3{
+    padding: 1rem 0;
+}
+button {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: #bdd4ff;
+    border: 1px solid rgb(33, 33, 33);
+}
